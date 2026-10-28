@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary-dark: #2B2D42;
+  --color-primary-muted: #8D99AE;
+  --color-primary-light: #EDF2F4;
+  --color-primary-accent: #EF233C;
+  --color-primary-hover: #D90429;
+  --background: var(--color-primary-dark);
+  --foreground: var(--color-primary-light);
+  --muted: var(--color-primary-muted);
+  --border: rgba(141, 153, 174, 0.2);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  scroll-behavior: smooth;
+}
