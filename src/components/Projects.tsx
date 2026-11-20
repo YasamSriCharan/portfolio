@@ -75,11 +75,8 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-4">
-                  <a href="#" className="flex items-center gap-2 text-sm font-bold text-primary-dark hover:text-primary-accent transition-colors">
+                  <a href="https://github.com/YasamSriCharan" className="flex items-center gap-2 text-sm font-bold text-primary-dark hover:text-primary-accent transition-colors">
                     <Github size={16} /> Code
-                  </a>
-                  <a href="#" className="flex items-center gap-2 text-sm font-bold text-primary-dark hover:text-primary-accent transition-colors">
-                    <ExternalLink size={16} /> Demo
                   </a>
                 </div>
               </div>
